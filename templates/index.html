@@ -1,0 +1,15 @@
+<!-- templates/index.html -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Checkers vs Computer</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <h1>American Checkers</h1>
+    <div id="board"></div>
+    <p id="status">Your turn (Red)</p>
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
+
